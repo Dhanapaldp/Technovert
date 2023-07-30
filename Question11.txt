@@ -1,0 +1,7 @@
+The given code has an issue because the reduce() function does not have an initial value for the accumulator (acc). In this case, the accumulator acc will start with the first element of the array numbers. This can lead to an incorrect result, especially when dealing with empty arrays. 
+By providing an initial value for the accumulator as an object with properties evens and odds initialized as empty arrays
+Output::
+{ 
+  evens: [2, 4],
+  odds: [1, 3, 5]
+}
